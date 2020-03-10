@@ -9,7 +9,7 @@ import com.dangdang.ddframe.job.api.simple.SimpleJob;
  * @author shevchenko
  *
  */
-public class MySimpleJob implements SimpleJob {
+public class MySimpleJob extends TestAb implements SimpleJob {
 
 	@Override
 	public void execute(ShardingContext shardingContext) {
